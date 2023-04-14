@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.h1{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* header code */
+header{
+    background-color: #f34f4f;
+}
+nav{
+    display: flex;
+}
+#logo{
+    padding: 15px;
+    margin-left: 39px;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 90px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 32px 33px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: #51fe44;
+}
+
+/* banner */
+#banner{
+    background: url("images/banner.jpg");
+}
+.banner-content{
+    display: flex;
+}
+.banner-left-data{
+    width: 50%;
+}
+.banner-left-data h1{
+    color: #51fe44;
+    font-size: 90px;
+    font-weight: 700;
+    padding-top: 150px;
+}
+.banner-left-data h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.banner-left-data p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.banner-link{
+    margin-top: 50px;
+    margin-bottom: 245px;
+}
+.banner-link a{
+    background: #fff;
+    color: #000;
+    padding: 15px 15px;
+    text-decoration: none;
+    margin: 10px;
+}
+.banner-right-img{
+    width: 50%;
+}
+.banner-right-img img{
+    width: 100%;
+    margin-top: 165px;
+}
+/* services */
+#services{
+    position: relative;
+}
+.services-main-box{
+    display: flex;
+    position: absolute;
+    top: -100px;
+    width: 80%;
+    justify-content: space-between;
+}
+.services-box{
+    text-align: center;
+    background-color: #fff;
+    width: 30%;
+    border: 1px solid #f2f2f2;
+}
+.services-box h3{
+    padding-top: 60px;
+}
+.services-box img{
+    padding: 15px 0;
+}
+.services-box p{
+    padding: 15px 15px;
+}
+/* about-services */
+#about-services{
+    margin-top: 220px;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    padding: 50px 0 ;
+    text-decoration: underline 1px rgb(255, 0, 0);
+    text-underline-offset: 20px;
+}
+.car-bg-img{
+    width: 80%;
+    height: 700px;
+    background: url("images/about.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.car-bg-img h3{
+    font-size: 27px;
+    padding-top: 158px;
+    padding-bottom: 24px;
+}
+.car-bg-img p{
+    padding: 6px 145px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+#readmore{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+/* gallery-section */
+#gallery-section p{
+    text-align: center;
+    font-weight: bold;
+}
+.gallery-main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery-box{
+    width: 40%;
+    margin-top: 20px;
+}
+
+.car-image{
+    margin-left: 50px;
+}

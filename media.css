@@ -1,0 +1,74 @@
+@media (max-width:600px) {
+    .container{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    #logo{
+        margin-left: 12px;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav ul li {
+        padding: 18px 33px;
+    }
+    /* banner */
+    .banner-content{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .banner-left-data{
+        width: 100%;
+    }
+    .banner-right-img{
+        width: 100%;
+    }
+    .banner-left-data h1{
+        font-size: 57px;
+        padding-top: 34px;
+    }
+    .banner-right-img img{
+        margin-top: 35px;
+    }
+    /* services */
+    .services-main-box{
+        flex-direction: column;
+        top: 20px;
+        width: 100%;
+        position: static;
+    }
+    .services-box{
+        width: 80%;
+        margin: 10px auto;
+    }
+    /* about-services */
+    #about-services{
+        margin-top: 10px;
+    }
+    .car-bg-img h3{
+        padding-top: 20px;
+    }
+    .car-bg-img{
+        width: 100%;
+        background: none;
+        height: 580px;
+    }
+    .car-bg-img p{
+        padding: 6px 22px;
+    }
+    /* gallery-section */
+    .gallery-main-box{
+        flex-direction: column;
+    }
+    .gallery-box{
+        width: 100%;
+        text-align: center;
+    }
+    .gallery-box img{
+        width: 80%;
+    }
+}
